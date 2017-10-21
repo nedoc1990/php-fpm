@@ -5,6 +5,11 @@ LABEL maintainer="Vincent Composieux <vincent.composieux@gmail.com>"
 RUN apk add --update \
     php7-fpm \
     php7-apcu \
+    php7-bcmath \
+    php7-bz2 \
+    php7-cgi \
+    php7-cli \
+    php7-zip \
     php7-ctype \
     php7-curl \
     php7-dom \
@@ -21,10 +26,12 @@ RUN apk add --update \
     php7-pdo_mysql \
     php7-mysqli \
     php7-xml \
+    php7-xmlrc \
     php7-zlib \
     php7-phar \
     php7-tokenizer \
     php7-session \
+    php7-xsl
     make \
     curl
 
