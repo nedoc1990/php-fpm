@@ -27,6 +27,7 @@ RUN apk add --update \
     php7-mysqli \
     php7-xml \
     php7-xmlrpc \
+    php7-simplexml \
     php7-zlib \
     php7-phar \
     php7-tokenizer \
