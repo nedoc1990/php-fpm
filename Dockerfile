@@ -31,7 +31,7 @@ RUN apk add --update \
     php7-phar \
     php7-tokenizer \
     php7-session \
-    php7-xsl
+    php7-xsl \
     make \
     curl
 
