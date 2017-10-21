@@ -33,6 +33,7 @@ RUN apk add --update \
     php7-tokenizer \
     php7-session \
     php7-xsl \
+    php7-pdo_pgsql \
     make \
     curl
 
