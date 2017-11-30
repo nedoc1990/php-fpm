@@ -14,6 +14,7 @@ RUN apk add --update \
     php7-common \
     php7-curl \
     php7-dom \
+    php7-fileinfo \
     php7-gd \
     php7-iconv \
     php7-imagick \
